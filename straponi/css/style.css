@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+}
+
+.attention{
+	width: 100%;
+	height: 35px;
+	background-color: #f54242;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.a_text{
+	font-weight: 500;
+	color: #ffb5b5;
+}
+
+.buttons{
+	height: 70px;
+	background-color: #ebebeb;
+	display: flex;
+	justify-content: center;
+}
+
+.button{
+	background-color: white;
+	width: 220px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-weight: 500;
+}
+
+.select_style{
+	height: 40px;
+	background-color: white;
+	width: 220px;
+	font-weight: 500;
+}
+
+.button:hover{
+	border-bottom: 2px solid #f54242;
+}
+
+.button:active{
+	position: relative;
+	top: 1px;
+}
+
+.menu{
+	width: 1280px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo_box{
+	width: 100%;
+	height: 300px;
+	
+}
+
+.logo_box_content{
+	display: flex;
+	align-items: center;
+}
+
+.logo_img{
+	border-radius: 100%;
+}
+
+.logo_text{
+	font-size: 105px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_1{
+	width: 100%;
+	height: 500px;
+	background-color: #ededed;
+	display: flex;
+	justify-content: center;
+}
+
+.content{
+	width: 1280px;
+	display: flex;
+	justify-content: center;
+}
+
+.content_text{
+	width: 780px;
+	padding: 50px;
+	text-align: justify;
+	font-size: 22px;
+}
+
+.content_img{
+	width: 500px;
+}
+
+.block_2{
+	margin-top: 50px;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+}
+
+.like{
+	margin-top: 30px;
+	background-color: #ededed;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.content_like{
+	width: 1280px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.yesOrNot{
+	width: 280px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn{
+	width: 100px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+}
+
+.btn:active{
+	position: relative;
+	top: 1px;
+}
+
+.btn_yes{
+	background-color: #4a9c3a;
+}
+
+.btn_no{
+	background-color: #c44a3d;
+}
+
+footer{
+	width: 100%;
+	background-color: black;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+}
+
+.content_footer{
+	margin-top: 20px;
+	width: 1280px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.email_inp{
+	width: 500px;
+	height: 30px;
+	font-size: 20px;
+}
+
+.rew{
+	margin-top: 10px;
+	width: 501px;
+	height: 100px;
+	font-size: 18px;
+	resize: none;
+}
+
+.send{
+	margin-top: 10px;
+	width: 120px;
+	height: 30px;
+	border: 2px solid white;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.send:active{
+	position: relative;
+	top: 1px;
+}

@@ -1,5 +1,8 @@
 let currentNum = 1;
+let total = 1;
 let last_user = [];
+document.getElementById('current').innerHTML = currentNum;
+document.getElementById('total').innerHTML = total;
 
 let arr = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -24,6 +27,23 @@ function printMatrix(){
 		out += "\n";
 	}	
 	alert(out);
+}
+
+function clearField(){
+	for (let i = 0; i < 10; i++) {
+		for (let j = 0; j < 10; j++) {
+			arr[i][j] = 0;
+		}
+	}	
+}
+
+function newGame(){
+	clearField();
+	drawMap();
+	$('.block').removeClass('greenBack');
+	$('.block').removeClass('redBack');
+	currentNum = 1;
+	document.getElementById('current').innerHTML = currentNum;
 }
 
 // Отслеживание клика по блоку
@@ -166,7 +186,11 @@ function colorTurn(i, j){
 function userTurn(i, j){
 	if(arr[i][j] != 0) return;
 	arr[i][j] = currentNum;
+	document.getElementById('current').innerHTML = currentNum;
+	document.getElementById('total').innerHTML = total;
 	currentNum++;
+	total++;
+
 	last_user[0] = i;
 	last_user[1] = j;
 	drawMap();
@@ -182,7 +206,21 @@ function drawMap(){
 		for (let j = 0; j < 10; j++) {
 			if(arr[i][j] != 0){
 				$("div[value='"+i+j+"']").text(arr[i][j]);
+			}else{
+				$("div[value='"+i+j+"']").text("");
 			}
 		}
 	}
+}
+
+function nightTheme(){
+	$('.block').toggleClass('blockNight');
+	$('#imBody').toggleClass('bodyNight');
+	$('.menu').toggleClass('menuNight');
+	$('.button').toggleClass('buttonNight');
+	$('.score').toggleClass('scoreNight');
+}
+
+function hideScore(){
+	$('.score').toggleClass('hideScore');
 }

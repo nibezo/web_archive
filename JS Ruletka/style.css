@@ -1,89 +1,88 @@
-*{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	font-family: Arial;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial;
 }
 
-.main{
-	width: 750px;
-	margin: 0 auto;
-	margin-top: 30px;
+.main {
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
-.info{
-	display: flex;
-	justify-content: space-between;
-	font-size: 18px;
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
 }
 
-#name{
-	font-weight: 600;
+#name {
+  font-weight: 600;
 }
 
-#money{
-	color: green;
+#money {
+  color: green;
 }
 
-.play{
-	display: flex;
-	margin-top: 30px;
+.play {
+  display: flex;
+  margin-top: 30px;
 }
 
-.field{
-	display: flex;
-	flex-direction: column;
-
+.field {
+  display: flex;
+  flex-direction: column;
 }
 
-.line{
-	display: flex;
-	font-size: 15px;
+.line {
+  display: flex;
+  font-size: 15px;
 }
-.button{
-	width: 25px;
-	height: 25px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #e2e2e2;
-	cursor: pointer;
-	margin: 1px;
-	border-radius: 2px;
-}
-
-
-.orangeColor{
-	background-color: orange;
-	color: white;
+.button {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e2e2;
+  cursor: pointer;
+  margin: 1px;
+  border-radius: 2px;
 }
 
-#playBtn, #play_newBtn{
-	margin-top: 5px;
-	width: 270px;
-	height: 22px;
-	cursor: pointer;
+.orangeColor {
+  background-color: orange;
+  color: white;
 }
 
-.output{
-	margin-left: 25px;
+#playBtn,
+#play_newBtn {
+  margin-top: 5px;
+  width: 270px;
+  height: 22px;
+  cursor: pointer;
 }
 
-.out{
-	background-color: #e2e2e2;
-	padding: 5px;
-	border-radius: 5px;
-	color: #4f4f4f;
+.output {
+  margin-left: 25px;
 }
 
-label{
-	font-weight: 600;
+.out {
+  background-color: #e2e2e2;
+  padding: 5px;
+  border-radius: 5px;
+  color: #4f4f4f;
 }
 
-#price{
-	color: green;
+label {
+  font-weight: 600;
 }
 
-.displayNone{
-	display: none;
+#price {
+  color: green;
+}
+
+.displayNone {
+  display: none;
 }

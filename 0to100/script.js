@@ -229,6 +229,21 @@ function hideScore() {
   $('.score').toggleClass('hideScore');
 }
 
+async function tournament() {
+  userTurn(getRandomInt(10), getRandomInt(10));
+  let variants = document.querySelectorAll('.greenBack');
+  for (let i = 0; i < 10; i++) {
+    variants[getRandomInt(variants.length)].click();
+    variants = document.querySelectorAll('.greenBack');
+    await sleep(100);
+  }
+  document.querySelector("button")
+}
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }

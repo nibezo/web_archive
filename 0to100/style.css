@@ -1,148 +1,148 @@
-*{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	font-family: Arial;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial;
 }
 
-html, body{
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-
-body{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #EDEEF0;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edeef0;
 }
 
-.line{
-	display: flex;
+.line {
+  display: flex;
 }
 
-.block{
-	width: 45px;
-	height: 45px;
-	background-color: white;
-	margin: 2px;
-	border-radius: 3px;	
-	border: 1px solid #dbdbdb;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.block {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  margin: 2px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.bodyNight{
-	background-color: #222226;
+.bodyNight {
+  background-color: #222226;
 }
 
-.blockNight{
-	background-color: #333336;
-	border: 1px solid #57575b;
-	color: white;
+.blockNight {
+  background-color: #333336;
+  border: 1px solid #57575b;
+  color: white;
 }
 
-.greenBack{
-	background-color: #b2eb9d;
+.greenBack {
+  background-color: #b2eb9d;
 }
 
-.redBack{
-	background-color: #e69c8c;
+.redBack {
+  background-color: #e69c8c;
 }
 
-.menu{
-	position: absolute;
-	background-color: red;
-	bottom: 0px;
-	width: 600px;
-	height: 70px;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
-	padding: 10px;
-	background-color: white;
-	border: 1px solid #dbdbdb;
+.menu {
+  position: absolute;
+  background-color: red;
+  bottom: 0px;
+  width: 600px;
+  height: 70px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
 }
 
-.menuNight{
-	background-color: #333336;
-	border: 1px solid #57575b;
-	color: white;
+.menuNight {
+  background-color: #333336;
+  border: 1px solid #57575b;
+  color: white;
 }
 
-.buttons{
-	margin-top: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.button{
-	background-color: lightgrey;
-	padding: 15px;
-	border-radius: 5px;
+.button {
+  background-color: lightgrey;
+  padding: 15px;
+  border-radius: 5px;
 }
 
-.buttonNight{
-	background-color: #333336;
-	border: 1px solid grey;
+.buttonNight {
+  background-color: #333336;
+  border: 1px solid grey;
 }
 
-.button:hover{
-	cursor: pointer;
-	background-color: #bcbcbc;
+.button:hover {
+  cursor: pointer;
+  background-color: #bcbcbc;
 }
 
-.button:active{
-	position: relative;
-	top: 1px;
+.button:active {
+  position: relative;
+  top: 1px;
 }
 
-.block:hover{
-	cursor: pointer;
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.35);
-	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.35);
-	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.35);
+.block:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.35);
 }
 
-.blockNight:hover{
-	border: 1px solid black;
+.blockNight:hover {
+  border: 1px solid black;
 }
 
-.buttonNight:hover{
-	background-color: #444444;
+.buttonNight:hover {
+  background-color: #444444;
 }
 
-.score{
-	position: absolute;
-	top: 0px;
-	background-color: red;
-	width: 600px;
-	height: 50px;
-	padding: 5px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color: white;
-	border: 1px solid #dbdbdb;
+.score {
+  position: absolute;
+  top: 0px;
+  background-color: red;
+  width: 600px;
+  height: 50px;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #dbdbdb;
 }
 
 .hideScore {
-	display: none; 
+  display: none;
 }
 
-.info span{
-	font-weight: bold;
+.info span {
+  font-weight: bold;
 }
 
-.scoreNight{
-	background-color: #333336;
-	border: 1px solid grey;
-	color: white;
+.scoreNight {
+  background-color: #333336;
+  border: 1px solid grey;
+  color: white;
 }
 
-.notClick:hover{
-	cursor: not-allowed;
+.notClick:hover {
+  cursor: not-allowed;
 }
